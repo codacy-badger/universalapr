@@ -1,0 +1,59 @@
+INCLUDEPATH += $$PWD/ \
+               $$PWD/include \
+               $$PWD/h \
+               $$PWD/hh \
+               $$PWD/hhh \
+               $$PWD/hdebug \
+               $$PWD/hrk \
+               $$PWD/hrkint \
+               $$PWD/hrstr \
+               $$PWD/fon/src \
+               $$PWD/usage
+
+LIBS += -L$$PWD/lib \
+        -lccom \
+        -lced \
+        -lcfcompat \
+        -lcfio \
+        -lcimage \
+        -lcline \
+        -lcpage \
+        -lcpu32 \
+        -lcstr \
+        -lctb32 \
+        -lcuneiform \
+        -ldif32 \
+        -levn32 \
+        -lexc \
+        -lfon32 \
+        -lleo32 \
+        -llns32 \
+        -lloc32 \
+        -lmmx32 \
+        -lmsk32 \
+        -lpass2 \
+        -lr3532 \
+        -lrbal \
+        -lrblock \
+        -lrcorrkegl \
+        -lrcutp \
+        -lrdib \
+        -lrfrmt \
+        -lrimage \
+        -lrline \
+        -lrling \
+        -lrlings \
+        -lrmarker \
+        -lrneg \
+        -lrout \
+        -lrpic \
+        -lrpstr \
+        -lrreccom \
+        -lrsadd \
+        -lrselstr \
+        -lrshelllines \
+        -lrstr \
+        -lrstuff \
+        -lrverline \
+        -lsmetric \
+        -lstd32
