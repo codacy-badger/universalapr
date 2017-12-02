@@ -1,4 +1,5 @@
 # UniversalAPR - Automatic License Plate Recognition
+UniversalAPR is a very primitive license plate recognition software.
 
 # Test results
 
