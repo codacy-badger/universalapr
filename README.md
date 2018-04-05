@@ -3,7 +3,7 @@ UniversalAPR is a very primitive license plate recognition software.
 
 # Test results
 
-![Test results](https://i.hizliresim.com/3pGBkp.jpg)
+![Test results](https://resmim.net/f/gRUsTx.jpg)
 
 
 # How to compile
