@@ -7,17 +7,15 @@ UniversalAPR is a very primitive license plate recognition software.
 
 
 # How to compile
-- copy universalapr/contrib/cuneiform/datadir into desktop
-- change the path of datadir within main.cpp (point it to your ..Desktop/datadir path)
-- copy universalapr/contrib/cuneiform into desktop and build cuneiform with cmake separately
-  [i.e. cmake ../cuneiform -DCMAKE_INSTALL_PREFIX=../Desktop/libs && make install]
-- then copy its lib files (libxx.so, libxx.dll, libxx.dylib etc) into universalapr/contrib/cuneiform/lib
-- download opencv form internet
-- build opencv with cmake separately
-- then copy its lib files into universalapr/contrib/opencv/lib
-  [copy its include files into universalapr/contrib/opencv/include (only if universalapr compilation fails, so try next step first)]
-- build universalapr and run
-- that's all
+
+1. Copy "universalapr/contrib/cuneiform/datadir" into your Desktop
+2. Change the path "datadir" in your main.cpp (point it to your ..Desktop/datadir path)
+3. Copy "universalapr/contrib/cuneiform" into your Desktop and build cuneiform with cmake separately [i.e. "cmake ../cuneiform -DCMAKE_INSTALL_PREFIX=../libs && make -j4 install"]
+4. After building, copy its lib files (libxx.so, libxx.dll, libxx.dylib etc) into "universalapr/contrib/cuneiform/lib"
+5. Download opencv form internet
+6. Build opencv with cmake separately
+7. After building, copy its lib files into "universalapr/contrib/opencv/lib", and copy its "include" files into "universalapr/contrib/opencv/include"
+8. Build universalapr and run
 
 # How to use
 
